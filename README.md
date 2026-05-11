@@ -26,5 +26,4 @@ pip install wustDEG
 
 ## ✨ Features
 
-这是程宇航第一个Python包  
 📅 03/29/2026，天气 🌧️🌧️ 武汉科技大学 📍
