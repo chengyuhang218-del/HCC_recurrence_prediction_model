@@ -8,7 +8,7 @@
 
 ## 项目简介
 
-本项目围绕「肝癌术后是否复发」这一二分类任务，整理了从数据下载、清洗、标签构建到模型训练（Attention 思路）的完整流程文档，便于复现与二次开发。
+本项目围绕「肝癌术后是否复发」的二分类任务，整理了从数据下载、清洗、标签构建到模型训练（Attention 思路）的完整流程文档，便于复现与二次开发。
 
 核心目标：
 
@@ -20,12 +20,6 @@
 ---
 
 ## 🚀 Overview
-## 仓库主要文件
-
-**wustDEG** is a simple yet extensible Python package designed for differential gene expression (DEG) analysis from count-based transcriptomic data.
-- `hcc_recurrence_project_tutorial_html_v_2.html`：原始 HTML 教程文档。
-- `PROJECT_DOCUMENTATION.md`：项目总文档（你可以按需追加内容，不需要覆盖）。
-
 It provides a streamlined workflow to:
 ---
 ## 流程概览
@@ -47,7 +41,7 @@ It provides a streamlined workflow to:
 
 Install from PyPI:
 ```bash
-pip install wustDEG
+pip install wust***
 ```
 ---
 
