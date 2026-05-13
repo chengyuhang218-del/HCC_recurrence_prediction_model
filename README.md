@@ -1,4 +1,4 @@
-# 🧬 wustDEG  
+# 🧬 wustPrediction  
 **A lightweight Python toolkit for differential gene expression analysis**
 # HCC Recurrence Prediction Project
 
