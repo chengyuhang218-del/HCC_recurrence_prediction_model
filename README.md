@@ -1,4 +1,4 @@
-# 🧬 wustPrediction  
+# 🧬 一个深度学习预测复发/非复发项目（基于bulk基因表达的）
 **A lightweight Python toolkit for differential gene expression analysis**
 # HCC Recurrence Prediction Project
 
@@ -24,26 +24,10 @@
 
 **wustDEG** is a simple yet extensible Python package designed for differential gene expression (DEG) analysis from count-based transcriptomic data.
 - `hcc_recurrence_project_tutorial_html_v_2.html`：原始 HTML 教程文档。
-- `hcc_recurrence_project_tutorial_html_v_2.md`：对应的 Markdown 版本（已整理）。
 - `PROJECT_DOCUMENTATION.md`：项目总文档（你可以按需追加内容，不需要覆盖）。
 
 It provides a streamlined workflow to:
 ---
-
-- Perform differential expression analysis (tumor vs normal)
-- Compute log2 fold change and statistical significance
-- Adjust p-values using multiple testing correction (FDR)
-- Preprocess gene expression matrices
-## 推荐使用方式
-
-1. 先阅读 `hcc_recurrence_project_tutorial_html_v_2.md`。
-2. 按需将其中章节复制到 `PROJECT_DOCUMENTATION.md`。
-3. 在你自己的数据路径下执行 R / Python 代码块。
-
----
-## 📦 Installation
-
-Install from PyPI:
 ## 流程概览
 
 1. 下载 GSE76427 表达矩阵与临床信息。  
@@ -53,6 +37,15 @@ Install from PyPI:
 5. 导出清洗后的表达矩阵与标签。  
 6. 在 Python 中读取并进行特征筛选与 Attention 建模。  
 
+## 推荐使用方式
+
+1. 先阅读 `hcc_recurrence_project_tutorial_html_v_2.md`。
+2. 在你自己的数据路径下执行 R / Python 代码块。
+
+---
+## 📦 Installation（还未上传，项目还未完善）
+
+Install from PyPI:
 ```bash
 pip install wustDEG
 ```
@@ -63,4 +56,3 @@ pip install wustDEG
 
 📅 03/29/2026，天气 🌧️🌧️ 武汉科技大学 📍
 - 本仓库以**文档可复用性**为主，优先保证步骤清晰、结构完整。
-- 如需我继续，我可以下一步直接帮你把 Markdown 内容**追加**到 `PROJECT_DOCUMENTATION.md`（不覆盖原内容）。
