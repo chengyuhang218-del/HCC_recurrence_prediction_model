@@ -1,13 +1,13 @@
 # 🧬 一个深度学习预测复发/非复发项目（基于bulk基因表达的）
 基于 **GSE76427** 的肝细胞癌（HCC）复发/非复发预测项目说明仓库。
 
-GSE76427_expr_gene_RFS_108_clean.csv 是处理好的表达矩阵<br>
-GSE76427_rfs_label_108.csv 是处理好的复发非复发标签<br>
-GSE76427_series_matrix.txt 是原始矩阵文件（包含临床信息）<br>
-GPL10558_HumanHT-12_V4_0_R1_15002873_B.txt 是基因ID转换所用数据<br>
-PROJECT_DOCUMENTATION.md 是项目详细过程及注释<br>
-Modifiedcode.py 是项目完整代码，按顺序运行即可<br>
-数据处理代码.R 是数据预处理的代码
+GSE76427_expr_gene_RFS_108_clean.csv --------处理好的表达矩阵<br>
+GSE76427_rfs_label_108.csv ------------------处理好的复发非复发标签<br>
+GSE76427_series_matrix.txt ------------------原始矩阵文件（包含临床信息）<br>
+GPL10558_HumanHT-12_V4_0_R1_15002873_B.txt --是基因ID转换所用数据<br>
+PROJECT_DOCUMENTATION.md --------------------是项目详细过程及注释<br>
+Modifiedcode.py -----------------------------是项目完整代码，按顺序运行即可<br>
+数据处理代码.R --------------------------------是数据预处理的代码
 
 ---
 
