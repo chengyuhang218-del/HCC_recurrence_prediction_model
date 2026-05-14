@@ -8,11 +8,14 @@
 项目地址：https://github.com/chengyuhang218-del/HCC_recurrence_prediction_model
 ```text
 scRNAseq-HCC/
-├── Modifiedcode.py                         # 深度学习代码
-├── GSE76427_expr_gene_RFS_108_clean.csv    # 基因表达矩阵
-├── GSE76427_rfs_label_108.csv              # 样本复发标签
-├── README.md                               # 简要的项目介绍
-└── PROJECT_DOCUMENTATION.md                # 本项目说明文档
+├── Modifiedcode.py                            # 深度学习代码
+├── GSE76427_expr_gene_RFS_108_clean.csv       # 基因表达矩阵
+├── GSE76427_rfs_label_108.csv                 # 样本复发标签
+├── GSE76427_series_matrix.txt                 # 原始矩阵文件（包含临床信息）
+├── GPL10558_HumanHT-12_V4_0_R1_15002873_B.txt # 基因ID转换所用数据
+├── 数据处理代码.R                               # 数据预处理的代码
+├── README.md 
+└── PROJECT_DOCUMENTATION.md                   # 本项目说明文档
 ```
 
 ## 3. 数据说明
