@@ -1,8 +1,12 @@
 # 🧬 一个深度学习预测复发/非复发项目（基于bulk基因表达的）
-**A lightweight Python toolkit for differential gene expression analysis**
-# HCC Recurrence Prediction Project
-
 基于 **GSE76427** 的肝细胞癌（HCC）复发/非复发预测项目说明仓库。
+
+GSE76427_expr_gene_RFS_108_clean.csv 是处理好的表达矩阵
+GSE76427_rfs_label_108.csv 是处理好的复发非复发标签
+GSE76427_series_matrix.txt 是原始矩阵文件（包含临床信息）
+GPL10558_HumanHT-12_V4_0_R1_15002873_B.txt 是基因ID转换所用数据
+PROJECT_DOCUMENTATION.md 是项目详细过程及注释
+Modifiedcode.py 是项目完整代码，按顺序运行即可
 
 ---
 
@@ -29,11 +33,11 @@ It provides a streamlined workflow to:
 3. Probe ID 映射为 Gene Symbol。  
 4. 清理空基因名、重复基因、NA/Inf。  
 5. 导出清洗后的表达矩阵与标签。  
-6. 在 Python 中读取并进行特征筛选与 Attention 建模。  
+6. 在 Python 中读取并进行特征筛选与建模。  
 
 ## 推荐使用方式
 
-1. 先阅读 `hcc_recurrence_project_tutorial_html_v_2.md`。
+1. 先阅读 `PROJECT_DOCUMENTATION.md `，从头开始一步一步运行每个模块代码
 2. 在你自己的数据路径下执行 R / Python 代码块。
 
 ---
@@ -48,5 +52,5 @@ pip install wust***
 ## ✨ Features
 ## 说明
 
-📅 03/29/2026，天气 🌧️🌧️ 武汉科技大学 📍
+📅 03/29/2026
 - 本仓库以**文档可复用性**为主，优先保证步骤清晰、结构完整。
