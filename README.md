@@ -1,4 +1,4 @@
-# 🧬 一个深度学习预测肝细胞癌复发/非复发项目<br>（基于bulk基因表达）
+# 🧬 一个深度学习预测肝细胞癌复发/非复发项目<br> （基于bulk基因表达）
 基于 **GSE76427** 的肝细胞癌（HCC）复发/非复发预测项目说明仓库。
 
 GSE76427_expr_gene_RFS_108_clean.csv --------处理好的表达矩阵<br>
@@ -24,7 +24,7 @@ Modifiedcode.py -----------------------------是项目完整代码，按顺序�
 
 ---
 
-## 🚀 Overview
+## Overview
 It provides a streamlined workflow to:
 ---
 ## 流程概览
@@ -42,7 +42,7 @@ It provides a streamlined workflow to:
 2. 在相关数据路径下执行 R / Python 代码块。
 
 ---
-## 📦 Installation（还未上传，项目还未完善写为python包）
+## Installation（还未上传，项目还未完善写为python包）
 
 Install from PyPI:
 ```bash
@@ -50,7 +50,7 @@ pip install wust***
 ```
 ---
 
-## ✨ Features
+## Features
 ## 说明
 
 📅 03/29/2026
