@@ -1,13 +1,10 @@
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-
 import torch
 import torch.nn as nn
 import numpy as np
 import pandas as pd
-
 from tqdm import tqdm
-
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -224,7 +221,6 @@ wait = 0
 
 for epoch in tqdm(range(EPOCHS), desc="Training MLP"):
     model.train()
-
     optimizer.zero_grad()
 
     train_logits, train_embedding = model(x_train_t)
@@ -415,8 +411,24 @@ importance_df = pd.DataFrame({
     "logistic_importance": logreg_importance
 })
 
+importance_df["mlp_importance_norm"] = (
+    importance_df["mlp_importance"] -
+    importance_df["mlp_importance"].min()
+) / (
+    importance_df["mlp_importance"].max() -
+    importance_df["mlp_importance"].min()
+)
+
+importance_df["logistic_importance_norm"] = (
+    importance_df["logistic_importance"] -
+    importance_df["logistic_importance"].min()
+) / (
+    importance_df["logistic_importance"].max() -
+    importance_df["logistic_importance"].min()
+)
+
 importance_df["mean_importance"] = importance_df[
-    ["mlp_importance", "logistic_importance"]
+    ["mlp_importance_norm", "logistic_importance_norm"]
 ].mean(axis=1)
 
 importance_df = importance_df.sort_values(
