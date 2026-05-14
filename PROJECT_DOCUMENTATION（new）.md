@@ -5,7 +5,7 @@
 利用 HCC（hepatocellular carcinoma，肝细胞癌）患者的基因表达矩阵与复发标签，构建一个用于预测患者是否复发的二分类模型。整体思路是先在训练集内筛选与复发相关的基因，再分别训练 MLP （多层感知机非线性）神经网络和 ElasticNet Logistic Regression（线性模型），最后对两个模型的预测概率取平均形成集成预测。
 
 ## 2. 项目文件结构
-项目地址：https://github.com/chengyuhang218-del/bulkRNAseq-HCC
+项目地址：https://github.com/chengyuhang218-del/HCC_recurrence_prediction_model
 ```text
 scRNAseq-HCC/
 ├── Modifiedcode.py                         # 深度学习代码
